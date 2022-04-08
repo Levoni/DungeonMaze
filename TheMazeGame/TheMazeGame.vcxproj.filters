@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Maze.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvanceCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerFullVisibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerHealth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerVisionBoost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maze.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="flashlight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="flashlight_special.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileHelmetOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileHelmetThree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileHelmetTwo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileSwordOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileSwordThree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileSwordTwo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemyBat_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemyBat_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemyBat_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemyBat_U.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TheMazeGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="battlewav.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="dungeonwav.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="LastCallForAHero.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="tetris-gameboy-02.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="armorhit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="death.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="dungeon2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="enemyhit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="equip.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="swing.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="switchoff.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="switchon.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="walk.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="health.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="key.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="opendoor.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="skinhit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="unlockdoor.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="INTRO.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="98_Lost_Mine.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
